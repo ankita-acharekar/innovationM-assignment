@@ -20,7 +20,7 @@ public class App {
 	HashMap<String, Employee> hashMap = new HashMap<>();
 	Employee employee = new Employee();
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 
 		File inFile = null;
 		if (args.length > 0) {
@@ -30,20 +30,38 @@ public class App {
 			try {
 				BufferedReader br = new BufferedReader(new FileReader(inFile));
 				String read = null;
-				String[] empdata;
-				EmployeeController empController = new EmployeeController();
+				String[] empdata = new String[1];
+                EmployeeController empController =new EmployeeController();
 
-				while ((read = br.readLine()) != null) {
-					empdata = read.split("\\.");
+                while ((read = br.readLine()) != null) {
+                	empdata[0] = read;
 
 					empController.addEmp(empdata);
 				}
+                
+                //Total number of employees in an organization.
 				empController.totalemployees();
+				
+				//Month wise onboarded employees
+				empController.findAllOnBoarded();
+				
+				//Monthly salary report
 				empController.findAllDetails();
+				
+				//Employee wise financial report
 				empController.EmployeeWiseFinancialReport();
+				
+				//Monthly salary report
+				empController.monthlySalaryReport();
+				
+				//Monthly salary report
+				empController.MontlySalaryBonusReport();
+				
+				//Yearly financial report
+				empController.yearlyEventRecords();
 
 			} catch (IOException e) {
-				System.out.println("There was a problem: " + e);
+				System.out.println("There was an issue: " + e);
 
 			}
 		}

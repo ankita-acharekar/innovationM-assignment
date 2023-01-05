@@ -6,6 +6,7 @@ package com.deqode.backend2.innovationM_assignment.model;
 public class Events {
 
 	private String Event;
+	private String eventEmpId;
 	private String EventValue;
 	private String notes;
 	
@@ -26,5 +27,11 @@ public class Events {
 	}
 	public void setNotes(String notes) {
 		this.notes = notes;
+	}
+	public String getEventEmpId() {
+		return eventEmpId;
+	}
+	public void setEventEmpId(String eventEmpId) {
+		this.eventEmpId = eventEmpId;
 	}
 }

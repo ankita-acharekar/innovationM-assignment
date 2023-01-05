@@ -1,4 +1,10 @@
-1, emp101, Bill, Gates, Software Engineer, ONBOARD, 1-11-2022, 10-10-2022, "Bill Gates is going to join DataOrb on 1st November as a SE."
-2, emp102, Steve, Jobs, Architect, ONBOARD, 1-10-2022, 10-10-2022, "Steve Jobs joined DataOrb on 1st October as an Architect."
-3, emp103, Martin, Fowler, Software Engineer, ONBOARD, 15-10-2022, 10-10-2022, "Martin has joined DataOrb as a SE."
-4, emp102, SALARY, 3000, 10-10-2022, "Oct Salary of Steve."
+1, emp101, Bill, Gates, Software Engineer, ONBOARD, 01-11-2023, 10-10-2022, “Bill Gates is going to join DataOrb on 1st November as a SE.”
+2, emp103, Martin, Fowler, Software Engineer, ONBOARD, 15-01-2019, 10-10-2022, “Martin has joined DataOrb as a SE.”
+3, emp101, SALARY, 3000, 10-10-2022, “Oct Salary of Steve.”
+4, emp104, Salman, Khan, Architect, ONBOARD, 10-03-2021, 10-03-1997, “Salman Khan is going to join DataOrb as a SE.”
+5, emp102, Virat, Kohli, Architect, ONBOARD, 21-05-2021, 21-05-2000, “Virat Kohli is going to join DataOrb as a SE.”
+6, emp105, Ankita, Acharekar, Architect, ONBOARD, 25-12-2022, 25-12-2005, “Bill Gates is going to join DataOrb as a SE.”
+7, emp109, Elon, Musk, Architect, ONBOARD, 20-12-2022, 25-12-2005, “Elon Musk is going to join DataOrb as a SE.”
+8, emp106, Rohit, Sharma, Architect, ONBOARD, 10-03-2022, 10-03-1997, “Rohit Sharma is going to join DataOrb as a SE.”
+9, emp101, BONUS, 1000, 10-10-2022, “Performance bonus of year 2022”
+10, emp101, REIMBURSEMENT, 100, 10-10-2020, “Traveling expenses”
